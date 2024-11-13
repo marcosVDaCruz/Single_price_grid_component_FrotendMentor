@@ -1,0 +1,26 @@
+@media(max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+
+  .low_description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price_description {
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+
+  .why_us {
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media(max-width: 850px) {
+  .container {
+    width: 80%;
+  }
+}
